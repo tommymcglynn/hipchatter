@@ -10,3 +10,8 @@ Prep and run [buildout](https://github.com/buildout/buildout) to satisfy applica
     $ python bootstrap.py
     $ bin/buildout
 
+## Example
+
+    $ bin/python
+    >>> from hipchatter import messenger
+    >>> messenger.send_joke('hipchat_api_key', 'hipchat_room_id')
